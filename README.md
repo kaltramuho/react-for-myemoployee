@@ -29,6 +29,12 @@ This project is a React-based Employee Management System, providing functionalit
  npm start
 ```
 
+## Log in as super admin
+```bash
+ email: admin@gmail.com
+ password: admin123
+```
+
 ### Technology Stack
 
 - Frontend: React.js, Material-UI
