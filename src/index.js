@@ -3,6 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import axios from 'axios';
+
+const token = localStorage.getItem('access_token');
+if (token) {
+  axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
+}
+
+axios.defaults.baseURL = 'http://localhost:8000';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
