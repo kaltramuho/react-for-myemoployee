@@ -15,8 +15,8 @@ This project is a React-based Employee Management System, providing functionalit
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/kaltramuho/python-backend-for-MyEmployees.git
-    cd python-backend-for-MyEmployees
+    git clone https://github.com/kaltramuho/react-for-myemoployee.git
+    cd react-for-myemoployee
     ```
 
 2. **Install dependencies:**
